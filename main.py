@@ -2,7 +2,7 @@ import discord
 import aiohttp
 import asyncio
 
-TOKEN = "MTQyMjc2Mjc4Mzk4Nzk5MDY4OQ.G4NTQ0.a_-qBiDEZZe2u4rSi7OPnYZ8uupBY2bFHlMpjs"
+TOKEN = "MTQyMjc2Mjc4Mzk4Nzk5MDY4OQ.GfVGZI.NB5KqRRQrQIS-GsPDQVhmAfGtlwJJxYgE8jEiU"
 CHANNEL_ID = 1422762603331194964  # ID-ul canalului unde să trimită alerta
 BUNDLE_ID = 201
 
@@ -35,3 +35,4 @@ async def on_ready():
     client.loop.create_task(check_headless())
 
 client.run(TOKEN)
+
